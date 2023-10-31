@@ -1,7 +1,8 @@
-var num1 = parseInt(prompt("digite el primer numero: "))
+function sumar(){
+    var num1 = document.getElementById('num1').value;
+    var num2 = document.getElementById('num2').value;
 
-var num2 = parseInt(prompt("digite el segundo numero: "))
+    var sumar = parseInt(num1) + parseInt(num2);
 
-numsuma = num1 + num2
-
-alert("su suma es de " + numsuma)
+    document.getElementById('resultado'). value = sumar;
+}
