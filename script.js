@@ -24,3 +24,12 @@ function restar(){
 
     document.getElementById('resultado_resta'). value = restar;
 }
+
+function division(){
+    var num7 = document.getElementById('num7').value;
+    var num8 = document.getElementById('num8').value;
+
+    var division = parseInt(num7) / parseInt(num8);
+
+    document.getElementById('resultado_division'). value = division;
+}
