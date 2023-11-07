@@ -15,3 +15,12 @@ function multiplicar(){
 
     document.getElementById('resultado_multi'). value = multiplicar;
 }
+
+function restar(){
+    var num5 = document.getElementById('num5').value;
+    var num6 = document.getElementById('num6').value;
+
+    var restar = parseInt(num5) - parseInt(num6);
+
+    document.getElementById('resultado_resta'). value = restar;
+}
